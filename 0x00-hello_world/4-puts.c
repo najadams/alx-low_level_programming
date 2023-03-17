@@ -3,7 +3,7 @@
 *main - Entry point 
 */
 
-int main(viod) {
+int main(void) {
 	puts("\"Programming is like building a multi lingua puzzle");
 	return 0;
 }
