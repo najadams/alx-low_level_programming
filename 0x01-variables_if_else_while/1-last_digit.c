@@ -29,9 +29,9 @@ int main(void)
 	{
 		printf("%d is %d and is 0 \n", n, last);
 	}
-	else if (last <= 6 && last != 0)
+	else if (last < 6 && last != 0) 
 	{
-		printf("%d is %d and is greater than 5\n", n, last);
+		printf("%d is %d and is less than 6 and not 0\n", n, last);
 	}
 	return (0);
 }
