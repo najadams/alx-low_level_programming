@@ -23,5 +23,6 @@ int main(void)
 		c = i - 10 + 'a';
 		putchar(c);
 	}
+	putchar('\n');
 	return (0);
 }
