@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
- * print_alphabet_X10 - prints all the alphabets
+ * print_alphabet - prints all the alphabets
  *
  * Return: Always 0.
  */
 void print_alphabet_x10(void)
 {
 	int a;
-	char b;
+	int i;
 
-	for (a = 0; a <= 10; a++)
+	for (a = 0; a <= 9; a++)
 	{
-		for (b = 'a'; b <= 'z'; b++)
+		for (i = 'a'; i <= 'z'; i++)
 		{
-			_putchar('\n');
+			_putchar(i);
 		}
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
