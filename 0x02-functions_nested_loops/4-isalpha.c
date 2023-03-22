@@ -1,9 +1,9 @@
 
 /**
- * _isalpha(int c) tells if a character is an alphabet
- *
- * Return: Always 0.
+ * _isalpha - function to check alphabet
  * @c - is the parameter
+ *
+ * Return: 1 if the entered character is an alphabet and zero else 0.
  */
 int  _isalpha(int c)
 {
