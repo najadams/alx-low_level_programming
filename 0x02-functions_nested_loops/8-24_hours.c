@@ -2,7 +2,7 @@
 
 /**
  * jack_bauer - prints all the time
- * 
+ *
  * Return: Always 0.
  */
 
