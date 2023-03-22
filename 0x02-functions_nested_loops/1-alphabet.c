@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+ * print_alphabet - prints all the alphabets
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: Always 0.
  */
 void print_alphabet(void)
 {
@@ -16,5 +14,4 @@ void print_alphabet(void)
 		_putchar(a);
 	}
 	_putchar('\n');
-	
 }
