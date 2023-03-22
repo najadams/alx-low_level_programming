@@ -1,8 +1,9 @@
 
 /**
- * _islower(int c) tells if a character is lower
+ * _isalpha(int c) tells if a character is an alphabet
  *
  * Return: Always 0.
+ * @c - is the parameter
  */
 int  _isalpha(int c)
 {
