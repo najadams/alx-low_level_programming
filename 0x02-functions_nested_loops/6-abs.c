@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _abs() - prints  the absolute
+ * _abs - prints  the absolute value
  * @num: this is a parameter
  *
  * Return: Always 0.
