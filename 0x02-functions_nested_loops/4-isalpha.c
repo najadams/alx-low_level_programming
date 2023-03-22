@@ -1,7 +1,7 @@
 
 /**
  * _isalpha - function to check alphabet
- *   @c - is the parameter which stores the character
+ *   @c: is the parameter which stores the character
  *   to be checked
  *
  * Return: 1 if the entered character is an alphabet and zero else 0.
