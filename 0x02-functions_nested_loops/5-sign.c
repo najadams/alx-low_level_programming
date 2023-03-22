@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_sign - function to check alphabet
- *   @n - is the parameter which stores the character
+ *   @n: is the parameter which stores the character
  *   to be checked
  *
  * Return: 1 if the entered character is an alphabet and zero else 0.
