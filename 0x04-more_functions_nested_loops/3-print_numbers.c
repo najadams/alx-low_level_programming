@@ -3,8 +3,6 @@
 
 /**
  * print_numbers- return the product of two numbers
- * @a : this is the variable to store input
- * Return: the value of the product
  */
 
 void print_numbers(void)
