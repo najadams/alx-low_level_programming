@@ -3,7 +3,7 @@
 /**
  * _atoi - converts strings to integers
  * @s : store the address for the string
- * Return : number or zero on error
+ * Return: retun a number or 0 on error
  */
 
 int _atoi(char *s)
