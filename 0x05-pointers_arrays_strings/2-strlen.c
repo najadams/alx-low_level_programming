@@ -4,6 +4,7 @@
 * _strlen - count the length of a string
 * @s: stores the address of the pointer
 *
+* Return: always return length
 */
 int _strlen(char *s)
 {
