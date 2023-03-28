@@ -3,6 +3,7 @@
  * *_strcpy- returns dest
  * @dest: stores address
  * @src: stores address
+ * Return: returns a copy
  */
 
 char *_strcpy(char *dest, char *src)
