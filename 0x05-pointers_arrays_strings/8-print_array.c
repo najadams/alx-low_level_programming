@@ -5,7 +5,7 @@
 /**
 * print_array - prints half end of the string
 * @a: stores the address of the pointer
-* @n: stores the number 
+* @n: stores the number
 */
 void print_array(int *a, int n)
 {
