@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+/**
+ * rot13 - encoding in rot13
+ * @str: stores string
+ *
+ * Return: returns encoded string
+ */
+
 
 char *rot13(char *str)
 {
@@ -24,5 +31,5 @@ char *rot13(char *str)
 		}
 	}
 	result[j] = '\0';
-	return result;
+	return (result);
 }
