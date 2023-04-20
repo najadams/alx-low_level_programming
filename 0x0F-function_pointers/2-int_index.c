@@ -1,23 +1,21 @@
-#include <stdio.h>
+#include "function_pointers.h"
 /**
- * int_index - calls other function to compare
- * @array: stores the array of numbers
- * @size: stores the size of array
- * @cmp : stores the callback function
- * Return: return index on succes
+ * int_index - return index place if comparison = true, else -1
+ * @array: array
+ * @size: size of elements in array
+ * @cmp: pointer to func of one of the 3 in main
+ * Return: 0
  */
-
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	int i, result;
+	int i;
 
-	if (size <= 0)
+	if (array == NULL || size <= 0 || cmp == NULL)
 		return (-1);
 
 	for (i = 0; i < size; i++)
 	{
-		result = cmp(array[i]);
-		if (result != 0)
+		if (cmp(array[i]))
 			return (i);
 	}
 	return (-1);
