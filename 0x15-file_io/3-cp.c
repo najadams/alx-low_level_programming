@@ -26,3 +26,13 @@ char *create_buffer(char *file)
 
 	return (buffer);
 }
+/**
+ * close_file - Closes file descriptors.
+ * @fd: The file descriptor to be closed.
+ */
+void close_file(int fd)
+{
+	int c;
+
+	c = close(fd);
+}
