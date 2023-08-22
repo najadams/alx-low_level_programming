@@ -6,5 +6,5 @@
  * @c : this is the variable to store input
  * Return: 1 if input is capital and 0 else
  */
-char *_strpbrk(char *s, char *accept);
 
+int _islower(int c);
